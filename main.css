@@ -116,6 +116,8 @@ header {
 
 .contact ul {
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -136,7 +138,7 @@ header {
     background-color: var(--secondary-bg-color);
     border-radius: 10%;
     min-height: 100px;
-    width: 90%;
+    width: 100%;
     margin: 40px 0;
     padding: 3% 0;
     margin-left: auto;
@@ -145,8 +147,13 @@ header {
 }
 
 .project img {
-    width: 80%;
+    width: 90%;
     border: 1px #000000 solid;
+}
+
+.project p {
+    width: 90%;
+    margin: 1em auto;
 }
 
 .projecttech {
@@ -155,12 +162,14 @@ header {
 }
 
 .projectbutton {
+    display: inline-block;
     padding: 10px;
-    margin: 30px 5px;
+    margin: 5px;
     background-color: var(--link-color);
     color: var(--secondary-bg-color);
     border-radius: 5px;
     font-weight: 700;
+    font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
 }
