@@ -15,6 +15,7 @@ body {
     font-family: 'Muli', sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+    font-size: 113%;
 }
 
 h1, h2, h3 {
@@ -24,9 +25,24 @@ h1, h2, h3 {
     color: var(--header-color);
 }
 
+h1 {
+    font-size: 2em;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 1.625em;
+    line-height: 1.15em;
+}
+
+h3 {
+    font-size: 1.375em;
+    line-height: 1.15em;
+}
+
 p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.25em;
 }
 
 a {
@@ -60,7 +76,6 @@ nav {
 
 nav h2 {
     display: inline-block;
-    font-size: 24px;
     padding: 10px 20px;
     margin: 0;
 }
@@ -106,8 +121,8 @@ header {
     margin-bottom: 100px;
     padding: 0;
     list-style: none;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375em;
+    line-height: 1.5em;
 }
 
 .contact i {
@@ -135,7 +150,7 @@ header {
 }
 
 .projecttech {
-    font-size: 16px;
+    font-size: 0.9em;
     font-style: italic;
 }
 
@@ -189,6 +204,10 @@ header {
         margin-right: 0;
     }
     
+    p {
+        line-height: 1.375em;
+    }
+    
     footer {
         background-color: var(--main-bg-color);
         display: flex;
@@ -201,7 +220,7 @@ header {
         width: 100%;
         text-align: right;
         padding-right: 20px;
-        font-size: 22px;
+        font-size: 1.25em;
     }
 
     footer ul {
