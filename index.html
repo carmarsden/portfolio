@@ -15,10 +15,17 @@
             <h2>I’m a fullstack developer who likes asking both “how” and “why”.</h2>
             <nav role="navigation">
                 <h2><a href="#">Caroline Marsden</a></h2>
-                <ul>
-                    <li><a href="#aboutme">About Me</a> | </li>
-                    <li><a href="#projects">Projects</a> | </li>
-                    <li><a href="Caroline_Marsden_Resume.pdf" target="_blank">Resume</a> | </li>
+
+                <button id='navhamburger' aria-label='Display navigation'>
+                    <span id='hamburger1' class='hamburger-span'></span>
+                    <span id='hamburger2' class='hamburger-span'></span>
+                    <span id='hamburger3' class='hamburger-span'></span>
+                </button>
+
+                <ul id='navlist' class=''>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="Caroline_Marsden_Resume.pdf" target="_blank">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -83,5 +90,13 @@
                 <li><a href="https://www.linkedin.com/in/caroline-marsden/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script src="index.js"></script>
+
     </body>
 </html>
